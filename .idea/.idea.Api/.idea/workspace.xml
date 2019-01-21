@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="040c5027-2dda-4b56-a94b-d3ff864d7044" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Controllers/GroupController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Managers/BlobManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Models/Group.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Properties/PublishProfiles/lookupapiofficial - Web Deploy.pubxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/Services/GroupService.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LookUpApi/.idea/.idea.LookUpApi/.idea/contentModel.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LookUpApi/.idea/.idea.LookUpApi/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LookUpApi/.idea/.idea.LookUpApi/.idea/indexLayout.xml" afterDir="false" />
@@ -29,6 +20,16 @@
       <change afterPath="$PROJECT_DIR$/../WebApplication3/.idea/.idea.WebApplication3/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebApplication3/.idea/.idea.WebApplication3/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebApplication3/WebApplication3/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Api/xs/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Api/xs/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Controllers/GroupController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Controllers/GroupController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/Managers/BlobManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Managers/BlobManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Api/Services/GroupService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="104">
               <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding>
                 <marker date="1548055702273" expanded="true" signature="6:217" ph="..." />
@@ -75,16 +76,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Api/Controllers/GroupController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="70">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
               <folding>
-                <marker date="1548057163296" expanded="true" signature="6:144" ph="..." />
-                <marker date="1548057163296" expanded="true" signature="177:1383" ph="{...}" />
-                <marker date="1548057163296" expanded="true" signature="283:1381" ph="{...}" />
-                <marker date="1548057163296" expanded="true" signature="477:583" ph="{...}" />
-                <marker date="1548057163296" expanded="true" signature="677:783" ph="{...}" />
-                <marker date="1548057163296" expanded="true" signature="875:1166" ph="{...}" />
-                <marker date="1548057163296" expanded="true" signature="1256:1375" ph="{...}" />
+                <marker date="1548058809034" expanded="true" signature="6:144" ph="..." />
+                <marker date="1548058809034" expanded="true" signature="177:1389" ph="{...}" />
+                <marker date="1548058809034" expanded="true" signature="283:1387" ph="{...}" />
+                <marker date="1548058809034" expanded="true" signature="477:583" ph="{...}" />
+                <marker date="1548058809034" expanded="true" signature="677:783" ph="{...}" />
+                <marker date="1548058809034" expanded="true" signature="881:1172" ph="{...}" />
+                <marker date="1548058809034" expanded="true" signature="1262:1381" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -93,15 +94,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Api/Managers/BlobManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="376">
+              <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
               <folding>
-                <marker date="1548055932970" expanded="true" signature="6:183" ph="..." />
-                <marker date="1548055932970" expanded="true" signature="210:1304" ph="{...}" />
-                <marker date="1548055932970" expanded="true" signature="358:528" ph="{...}" />
-                <marker date="1548055932970" expanded="true" signature="608:906" ph="{...}" />
-                <marker date="1548055932970" expanded="true" signature="981:1300" ph="{...}" />
-                <marker date="1548055932970" expanded="true" signature="1188:1294" ph="{...}" />
+                <marker date="1548058700440" expanded="true" signature="6:183" ph="..." />
+                <marker date="1548058700440" expanded="true" signature="210:1344" ph="{...}" />
+                <marker date="1548058700440" expanded="true" signature="358:528" ph="{...}" />
+                <marker date="1548058700440" expanded="true" signature="608:906" ph="{...}" />
+                <marker date="1548058700440" expanded="true" signature="907:1341" ph="/* public async Task&lt;MemoryStream&gt; DownloadFileAsync(string blobName) ... */" />
               </folding>
             </state>
           </provider>
@@ -163,7 +163,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Api/Controllers/GroupController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -178,10 +178,10 @@
       <list>
         <option value="$PROJECT_DIR$/Api/Controllers/ValuesController.cs" />
         <option value="$PROJECT_DIR$/Api/Services/GroupService.cs" />
-        <option value="$PROJECT_DIR$/Api/Managers/BlobManager.cs" />
         <option value="$PROJECT_DIR$/Api/appsettings.json" />
         <option value="$PROJECT_DIR$/Api/Startup.cs" />
         <option value="$PROJECT_DIR$/Api/Models/Group.cs" />
+        <option value="$PROJECT_DIR$/Api/Managers/BlobManager.cs" />
         <option value="$PROJECT_DIR$/Api/Controllers/GroupController.cs" />
       </list>
     </option>
@@ -209,6 +209,30 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Api" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Api" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Api" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Api" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Api" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Api" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Managers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Api" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Api" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Api" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Api" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -265,12 +289,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1548054818684</updated>
-      <workItem from="1548054819825" duration="1944000" />
+      <workItem from="1548054819825" duration="3271000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1944000" />
+    <option name="totallyTimeSpent" value="3271000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -295,13 +319,13 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Unit Tests" />
       <window_info anchor="bottom" id="REST Client" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32965517" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Build" weight="0.32965517" />
+      <window_info anchor="bottom" id="Build" weight="0.58068967" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -377,9 +401,16 @@
     <entry file="file://$PROJECT_DIR$/Api/appsettings.Development.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file:///usr/local/share/dotnet/sdk/2.1.500/Microsoft.Common.CurrentVersion.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4258" column="4" selection-start-line="4258" selection-start-column="4" selection-end-line="4258" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Api/Services/GroupService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
+        <state relative-caret-position="104">
           <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
           <folding>
             <marker date="1548055702273" expanded="true" signature="6:217" ph="..." />
@@ -409,31 +440,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Api/Managers/BlobManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="376">
+          <caret line="37" column="2" lean-forward="true" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
           <folding>
-            <marker date="1548055932970" expanded="true" signature="6:183" ph="..." />
-            <marker date="1548055932970" expanded="true" signature="210:1304" ph="{...}" />
-            <marker date="1548055932970" expanded="true" signature="358:528" ph="{...}" />
-            <marker date="1548055932970" expanded="true" signature="608:906" ph="{...}" />
-            <marker date="1548055932970" expanded="true" signature="981:1300" ph="{...}" />
-            <marker date="1548055932970" expanded="true" signature="1188:1294" ph="{...}" />
+            <marker date="1548058700440" expanded="true" signature="6:183" ph="..." />
+            <marker date="1548058700440" expanded="true" signature="210:1344" ph="{...}" />
+            <marker date="1548058700440" expanded="true" signature="358:528" ph="{...}" />
+            <marker date="1548058700440" expanded="true" signature="608:906" ph="{...}" />
+            <marker date="1548058700440" expanded="true" signature="907:1341" ph="/* public async Task&lt;MemoryStream&gt; DownloadFileAsync(string blobName) ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Api/Controllers/GroupController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="70">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
           <folding>
-            <marker date="1548057163296" expanded="true" signature="6:144" ph="..." />
-            <marker date="1548057163296" expanded="true" signature="177:1383" ph="{...}" />
-            <marker date="1548057163296" expanded="true" signature="283:1381" ph="{...}" />
-            <marker date="1548057163296" expanded="true" signature="477:583" ph="{...}" />
-            <marker date="1548057163296" expanded="true" signature="677:783" ph="{...}" />
-            <marker date="1548057163296" expanded="true" signature="875:1166" ph="{...}" />
-            <marker date="1548057163296" expanded="true" signature="1256:1375" ph="{...}" />
+            <marker date="1548058809034" expanded="true" signature="6:144" ph="..." />
+            <marker date="1548058809034" expanded="true" signature="177:1389" ph="{...}" />
+            <marker date="1548058809034" expanded="true" signature="283:1387" ph="{...}" />
+            <marker date="1548058809034" expanded="true" signature="477:583" ph="{...}" />
+            <marker date="1548058809034" expanded="true" signature="677:783" ph="{...}" />
+            <marker date="1548058809034" expanded="true" signature="881:1172" ph="{...}" />
+            <marker date="1548058809034" expanded="true" signature="1262:1381" ph="{...}" />
           </folding>
         </state>
       </provider>

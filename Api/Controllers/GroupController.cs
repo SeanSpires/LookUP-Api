@@ -27,8 +27,8 @@ namespace LookUpApi.Controllers
             return await group;
         }
           
-        [HttpPost("image")]
-        public async Task<string> UploadGroupImage()
+        [HttpPost("mediaUpload")]
+        public async Task<string> UploadMediaFiles()
         {
             var files = Request.Form.Files;
             var fileName = files.First().FileName;

@@ -28,21 +28,20 @@ public class BlobManager
         stream.Dispose();
         return blockBlob.Uri.ToString();
     }
-
-  
-    public async Task<MemoryStream> DownloadFileAsync(string blobName)
-    {
-        
-        var container = _blobClient.GetContainerReference("mediaUploads");
-
-        var blockBlob = container.GetBlockBlobReference(blobName);
-
-        using (var stream = new MemoryStream())
-        {
-            await blockBlob.DownloadToStreamAsync(stream);
-            return stream;
-        }
-    }
-
+//
+//  
+//    public async Task<MemoryStream> DownloadFileAsync(string blobName)
+//    {           
+//        var container = _blobClient.GetContainerReference("mediaUploads");
+//
+//        var blockBlob = container.GetBlockBlobReference(blobName);
+//
+//        using (var stream = new MemoryStream())
+//        {
+//            await blockBlob.DownloadToStreamAsync(stream);
+//            return stream;
+//        }
+//        
+//    }
 
 }  
