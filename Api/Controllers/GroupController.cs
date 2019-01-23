@@ -21,21 +21,21 @@ namespace LookUpApi.Controllers
         }
 
         [HttpGet("{groupName}")]
-        public async Task<Group> GetGroup(string groupName)
+        public Task<Group> GetGroup(string groupName)
         {
             var group = _groupService.Get(groupName);
-            return await group;
+            return  group;
         }
           
         [HttpPost("mediaUpload")]
-        public async Task<string> UploadMediaFiles()
+        public string UploadMediaFiles()
         {
             var files = Request.Form.Files;
             var fileName = files.First().FileName;
             var stream = files.First().OpenReadStream();
             var formFileUri =  _blobManager.UploadFileAsBlob(stream, fileName);
 
-            return await formFileUri;
+            return formFileUri;
         }
 
         [HttpPost("create")]

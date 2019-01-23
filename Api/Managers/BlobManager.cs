@@ -17,13 +17,13 @@ public class BlobManager
         _blobClient = _storageAccount.CreateCloudBlobClient();
     }
 
-    public async Task<string> UploadFileAsBlob(Stream stream, string filename)
+    public  string UploadFileAsBlob(Stream stream, string filename)
     { 
         var container = _blobClient.GetContainerReference("media-uploads");
  
         var blockBlob = container.GetBlockBlobReference(filename);
         
-        await blockBlob.UploadFromStreamAsync(stream);
+        blockBlob.UploadFromStreamAsync(stream);
         
         stream.Dispose();
         return blockBlob.Uri.ToString();

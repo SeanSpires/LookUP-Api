@@ -15,6 +15,8 @@ namespace LookUpApi.Models
         
         [BsonElement("groupPhoto")] public Uri GroupPhoto { get; set; }
         
-        [BsonElement("ownerId")] public string OwnerId { get; set; }     
+        [BsonElement("ownerId")] public string OwnerId { get; set; }    
+        
+        [BsonElement("posts")] public Post[] Posts { get; set; }
     }
 }

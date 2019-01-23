@@ -9,12 +9,17 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="GroupController.cs" t="Include" />
+          <e p="PostController.cs" t="Include" />
+          <e p="UserController.cs" t="Include" />
         </e>
         <e p="Managers" t="Include">
           <e p="BlobManager.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
+          <e p="Comment.cs" t="Include" />
           <e p="Group.cs" t="Include" />
+          <e p="Post.cs" t="Include" />
+          <e p="User.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
