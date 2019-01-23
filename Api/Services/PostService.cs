@@ -26,7 +26,7 @@ namespace LookUpApi.Services
             return postToGet;
         }
 
-        public  void Create(Post post)
+        public void Create(Post post)
         {
             _posts.InsertOneAsync(post);
         }

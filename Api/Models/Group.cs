@@ -9,7 +9,7 @@ namespace LookUpApi.Models
         public ObjectId Id { get; set; }
         [BsonElement("groupName")] public string GroupName { get; set; }
         
-        [BsonElement("isPrivate")] public bool PrivateStatus { get; set; }
+        [BsonElement("isPrivate")] public bool IsPrivate { get; set; }
         
         [BsonElement("password")] public string Password { get; set; }
         
@@ -18,5 +18,7 @@ namespace LookUpApi.Models
         [BsonElement("ownerId")] public string OwnerId { get; set; }    
         
         [BsonElement("posts")] public Post[] Posts { get; set; }
+        
+        [BsonElement("users")] public User[] Users { get; set; }
     }
 }
