@@ -17,12 +17,15 @@ namespace LookUpApi.Models
         
         [BsonElement("group")] public Group Group { get; set; }
         
-        [BsonElement("videoThumbnail")] public Uri Uri { get; set; }
+        [BsonElement("videoThumbnail")] public Uri VideoThumbnail { get; set; }
         
         [BsonElement("videoUri")] public Uri VideoUri { get; set; }
         
         [BsonElement("images")] public Uri[] Images { get; set; }
         
         [BsonElement("comments")] public Comment[] Comments { get; set; }
+        
+        [BsonElement("favourites")] public int Favourites { get; set; }
+        
     }
 }

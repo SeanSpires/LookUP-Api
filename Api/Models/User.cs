@@ -12,5 +12,6 @@ namespace LookUpApi.Models
         
         [BsonElement("username")] public string Username { get; set; }
         
+        [BsonElement("groups")] public Group[] Groups { get; set; }
     }
 }

@@ -10,14 +10,14 @@ using MongoDB.Driver.Linq;
 
 namespace LookUpApi.Services
 {
-    public class GroupService
+    public class GroupService 
     {
         private readonly IMongoCollection<Group> _groups;
         private readonly IMongoDatabase _database;
 
-        public GroupService(IConfiguration config)
+        public GroupService(IConfiguration configuration)
         {
-            var client = new MongoClient(config.GetConnectionString("LookUpDb"));
+            var client = new MongoClient(configuration.GetConnectionString("LookUpDb"));
             _database = client.GetDatabase("LookUP");
             _groups = _database.GetCollection<Group>("Group");
         }
