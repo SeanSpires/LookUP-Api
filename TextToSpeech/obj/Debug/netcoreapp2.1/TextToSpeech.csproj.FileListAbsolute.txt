@@ -1,0 +1,9 @@
+/Users/sean.spires/Desktop/Projects/Api/TextToSpeech/bin/Debug/netcoreapp2.1/TextToSpeech.deps.json
+/Users/sean.spires/Desktop/Projects/Api/TextToSpeech/bin/Debug/netcoreapp2.1/TextToSpeech.dll
+/Users/sean.spires/Desktop/Projects/Api/TextToSpeech/bin/Debug/netcoreapp2.1/TextToSpeech.pdb
+/Users/sean.spires/Desktop/Projects/Api/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.csprojAssemblyReference.cache
+/Users/sean.spires/Desktop/Projects/Api/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.csproj.CoreCompileInputs.cache
+/Users/sean.spires/Desktop/Projects/Api/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.AssemblyInfoInputs.cache
+/Users/sean.spires/Desktop/Projects/Api/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.AssemblyInfo.cs
+/Users/sean.spires/Desktop/Projects/Api/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.dll
+/Users/sean.spires/Desktop/Projects/Api/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.pdb

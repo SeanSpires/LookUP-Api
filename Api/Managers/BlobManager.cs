@@ -11,19 +11,26 @@ public class BlobManager
     private CloudStorageAccount _storageAccount;
     private readonly CloudBlobClient _blobClient;
 
+    public BlobManager(string connectionString)
+    {
+        _storageAccount = CloudStorageAccount.Parse(connectionString);
+        _blobClient = _storageAccount.CreateCloudBlobClient();
+
+    }
+
     public BlobManager(IConfiguration config)
     {
         _storageAccount = CloudStorageAccount.Parse(config.GetConnectionString("LookUpBlob"));
         _blobClient = _storageAccount.CreateCloudBlobClient();
     }
 
-    public  string UploadFileAsBlob(Stream stream, string filename)
+    public async Task<string> UploadFileAsBlob(Stream stream, string filename)
     { 
         var container = _blobClient.GetContainerReference("media-uploads");
  
-        var blockBlob = container.GetBlockBlobReference(filename);
+        var blockBlob =  container.GetBlockBlobReference(filename);
         
-        blockBlob.UploadFromStreamAsync(stream);
+        await blockBlob.UploadFromStreamAsync(stream);
         
         stream.Dispose();
         return blockBlob.Uri.ToString();

@@ -12,3 +12,6 @@
 /Users/sean.spires/Desktop/Projects/Api/Api/obj/Debug/netcoreapp2.1/Api.RazorTargetAssemblyInfo.cache
 /Users/sean.spires/Desktop/Projects/Api/Api/obj/Debug/netcoreapp2.1/Api.dll
 /Users/sean.spires/Desktop/Projects/Api/Api/obj/Debug/netcoreapp2.1/Api.pdb
+/Users/sean.spires/Desktop/Projects/Api/Api/bin/Debug/netcoreapp2.1/TextToSpeech.dll
+/Users/sean.spires/Desktop/Projects/Api/Api/bin/Debug/netcoreapp2.1/TextToSpeech.pdb
+/Users/sean.spires/Desktop/Projects/Api/Api/obj/Debug/netcoreapp2.1/Api.csproj.CopyComplete

@@ -2,6 +2,7 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp2.1</TargetFramework>
+	<LangVersion>7.1</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
@@ -15,6 +16,10 @@
         <PackageReference Include="MongoDB.Driver" Version="2.7.2" />
         <PackageReference Include="MongoDB.Driver.Core" Version="2.7.2" />
         <PackageReference Include="WindowsAzure.Storage" Version="9.3.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\TextToSpeech\TextToSpeech.csproj" />
     </ItemGroup>
 
 </Project>

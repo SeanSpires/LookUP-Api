@@ -14,7 +14,11 @@
     ],
     "frameworks": {
       "netcoreapp2.1": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/sean.spires/Desktop/Projects/Api/TextToSpeech/TextToSpeech.csproj": {
+            "projectPath": "/Users/sean.spires/Desktop/Projects/Api/TextToSpeech/TextToSpeech.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

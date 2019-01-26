@@ -22,32 +22,32 @@ namespace LookUpApi.Services
             _groups = _database.GetCollection<Group>("Group");
         }
 
-        public  Task<Group> Get(string groupName)
+        public async Task<Group> Get(string groupName)
         {
             var groupsAsQueryable = _groups.AsQueryable();
-            var groupToGet = groupsAsQueryable.FirstAsync(group => group.GroupName == groupName);
+            var groupToGet = await groupsAsQueryable.FirstAsync(group => group.GroupName == groupName);
             return groupToGet;
         }
 
-        public  void Create(Group group)
+        public async Task Create(Group group)
         {
-            _groups.InsertOneAsync(group);
+           await _groups.InsertOneAsync(group);
         }
 
-        public void Update(string groupName, Group groupIn)
+        public async void Update(string groupName, Group groupIn)
         {
             var groupInName = groupIn.GroupName;
-             _groups.ReplaceOneAsync(group => group.GroupName == groupInName, groupIn);
+            await _groups.ReplaceOneAsync(group => group.GroupName == groupInName, groupIn);
         }
 
-        public void Remove(Group groupToRemove)
+        public async void Remove(Group groupToRemove)
         {
-            _groups.DeleteOneAsync(group => group.GroupName == groupToRemove.GroupName);
+            await _groups.DeleteOneAsync(group => group.GroupName == groupToRemove.GroupName);
         }
 
-        public void Remove(string groupName)
+        public async void Remove(string groupName)
         {
-             _groups.DeleteOneAsync(group => group.GroupName == groupName);
+            await _groups.DeleteOneAsync(group => group.GroupName == groupName);
         }
 
     }

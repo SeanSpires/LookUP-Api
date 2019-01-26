@@ -19,32 +19,32 @@ namespace LookUpApi.Services
             _posts = _database.GetCollection<Post>("Post");        
         }
         
-        public Task<Post> Get(ObjectId postId)
+        public async Task<Post> Get(ObjectId postId)
         {
             var postsAsQueryable = _posts.AsQueryable();
-            var postToGet = postsAsQueryable.FirstAsync(post => post.Id == postId);
+            var postToGet = await postsAsQueryable.FirstAsync(post => post.Id == postId);
             return postToGet;
         }
 
-        public void Create(Post post)
+        public async void Create(Post post)
         {
-            _posts.InsertOneAsync(post);
+            await _posts.InsertOneAsync(post);
         }
 
-        public void Update(ObjectId postId, Post postIn)
+        public async void Update(ObjectId postId, Post postIn)
         {
-            _posts.ReplaceOneAsync(post => post.Id == postId, postIn);
+            await _posts.ReplaceOneAsync(post => post.Id == postId, postIn);
         }
 
-        public void Remove(Post postToRemove)
+        public async void Remove(Post postToRemove)
         {
             
-            _posts.DeleteOneAsync(post => post.Id == postToRemove.Id);
+            await _posts.DeleteOneAsync(post => post.Id == postToRemove.Id);
         }
 
-        public void Remove(ObjectId postId)
+        public async void Remove(ObjectId postId)
         {
-            _posts.DeleteOneAsync(post => post.Id == postId);
+            await _posts.DeleteOneAsync(post => post.Id == postId);
         }
 
     }

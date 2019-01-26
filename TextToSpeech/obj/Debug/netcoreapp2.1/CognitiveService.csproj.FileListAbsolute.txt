@@ -1,0 +1,11 @@
+/Users/sean.spires/Desktop/Projects/Api/CognitiveService/bin/Debug/netcoreapp2.1/CognitiveService.deps.json
+/Users/sean.spires/Desktop/Projects/Api/CognitiveService/bin/Debug/netcoreapp2.1/CognitiveService.runtimeconfig.json
+/Users/sean.spires/Desktop/Projects/Api/CognitiveService/bin/Debug/netcoreapp2.1/CognitiveService.runtimeconfig.dev.json
+/Users/sean.spires/Desktop/Projects/Api/CognitiveService/bin/Debug/netcoreapp2.1/CognitiveService.dll
+/Users/sean.spires/Desktop/Projects/Api/CognitiveService/bin/Debug/netcoreapp2.1/CognitiveService.pdb
+/Users/sean.spires/Desktop/Projects/Api/CognitiveService/obj/Debug/netcoreapp2.1/CognitiveService.csproj.CoreCompileInputs.cache
+/Users/sean.spires/Desktop/Projects/Api/CognitiveService/obj/Debug/netcoreapp2.1/CognitiveService.AssemblyInfoInputs.cache
+/Users/sean.spires/Desktop/Projects/Api/CognitiveService/obj/Debug/netcoreapp2.1/CognitiveService.AssemblyInfo.cs
+/Users/sean.spires/Desktop/Projects/Api/CognitiveService/obj/Debug/netcoreapp2.1/CognitiveService.dll
+/Users/sean.spires/Desktop/Projects/Api/CognitiveService/obj/Debug/netcoreapp2.1/CognitiveService.pdb
+/Users/sean.spires/Desktop/Projects/Api/CognitiveService/obj/Debug/netcoreapp2.1/CognitiveService.csprojAssemblyReference.cache

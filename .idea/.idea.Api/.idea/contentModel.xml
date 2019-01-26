@@ -10,6 +10,7 @@
         <e p="Controllers" t="Include">
           <e p="GroupController.cs" t="Include" />
           <e p="PostController.cs" t="Include" />
+          <e p="TextToSpeechController.cs" t="Include" />
           <e p="UserController.cs" t="Include" />
         </e>
         <e p="Managers" t="Include">
@@ -45,6 +46,19 @@
       </e>
       <e p="Api.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="TextToSpeech" t="IncludeRecursive">
+        <e p="Authentication.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CognitiveService.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.1" t="Include">
+              <e p="TextToSpeech.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="TextToSpeech.csproj" t="IncludeRecursive" />
+      </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_Api.-1345098663.00" t="ExcludeRecursive" />

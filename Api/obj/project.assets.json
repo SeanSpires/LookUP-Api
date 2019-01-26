@@ -4799,12 +4799,22 @@
         "runtime": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
         }
+      },
+      "TextToSpeech/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/TextToSpeech.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TextToSpeech.dll": {}
+        }
       }
     }
   },
   "libraries": {
     "DnsClient/1.0.7": {
-      "sha512": "f3k5ufhUSL658fy/ac1mReqRIr0jGMyOJFvBqJ+7cASq01NIysYbrrRDjboYKAGrd0Y2mc1A749uQvT8vAA91A==",
+      "sha512": "i6Imdyz+dvljMtQh1QtjMzguLEFFJCilecHiaRPIbNX4gK3zluf/3OQWD1XbVy5PXf1u394x5ImB+uu7DNMS1w==",
       "type": "package",
       "path": "dnsclient/1.0.7",
       "files": [
@@ -7458,7 +7468,7 @@
       ]
     },
     "MongoDB.Bson/2.7.2": {
-      "sha512": "BThOa3NUgjTbds9QpcM5Lg/bnA0tRukPV3QX8eTV2xuNidF5rA4E71qJhRZcqmFDTmbhmsU68yQkn5DmNo4Atg==",
+      "sha512": "pfcXg9leEY39T1A+B69k0yRvWDDiYa1kSc97RwHRuDWQawYkgwq2F3Xbj8lVQnNohDvV1E+7ZgszAlbA91Tl3w==",
       "type": "package",
       "path": "mongodb.bson/2.7.2",
       "files": [
@@ -7474,7 +7484,7 @@
       ]
     },
     "MongoDB.Driver/2.7.2": {
-      "sha512": "3Jpxkic3K+x65ZoBwbUyafoob2t/pq9IB0S+QL1Nlwitbc+TGQXNG7GICexfvO2lW1uPCzca2ddCAzVP7u6YAA==",
+      "sha512": "m7Fgt6okctvx4CGne0vgH8CqFEUO4T+LHYpFNsylFQASgX03DKCaFwp+BGmCR/0IfZVWGwO2zdGRq2Yv8/PNAg==",
       "type": "package",
       "path": "mongodb.driver/2.7.2",
       "files": [
@@ -7490,7 +7500,7 @@
       ]
     },
     "MongoDB.Driver.Core/2.7.2": {
-      "sha512": "6hYwYhP9kcaiFgNyqcvNo7ORyFOTHKHp1OT+Z1OniupmwQ3LH5ch0jtLhRdCQAxDa9v2Q7wfB3OvHGouo6c4aA==",
+      "sha512": "TxMK++cPLQ78DKxhEhWxuseTJUuUaoQsyykedXeR9c9yjuniwIUpNCT0c4kJb60pxZK8S2pfH++0OTRcrpfhlA==",
       "type": "package",
       "path": "mongodb.driver.core/2.7.2",
       "files": [
@@ -8048,7 +8058,7 @@
       ]
     },
     "System.Buffers/4.5.0": {
-      "sha512": "pL2ChpaRRWI/p4LXyy4RgeWlYF2sgfj/pnVMvBqwNFr5cXg7CXNnWZWxrOONLg8VGdFB8oB+EG2Qw4MLgTOe+A==",
+      "sha512": "09yL/QiPEDZI9JLg0R0OcGe/0ycFm69QN16DCvXkqkIorCC1Y2EKwk5KvSlfMmGse+LcKkD3H+Cra7fFkxHXEg==",
       "type": "package",
       "path": "system.buffers/4.5.0",
       "files": [
@@ -8310,7 +8320,7 @@
       ]
     },
     "System.ComponentModel/4.0.1": {
-      "sha512": "oBZFnm7seFiVfugsIyOvQCWobNZs7FzqDV/B7tx20Ep/l3UUFCPDkdTnCNaJZTU27zjeODmy2C/cP60u3D4c9w==",
+      "sha512": "3AOvy/bB7s8yAkolZOlqGeLDrPySuYsgkk7hKIBWn5a/Le7V16PDYQIzj7w7hi4UUXXmEmN/ZehNlAi5eD9r5w==",
       "type": "package",
       "path": "system.componentmodel/4.0.1",
       "files": [
@@ -8458,7 +8468,7 @@
       ]
     },
     "System.ComponentModel.Primitives/4.1.0": {
-      "sha512": "sc/7eVCdxPrp3ljpgTKVaQGUXiW05phNWvtv/m2kocXqrUQvTVWKou1Edas2aDjTThLPZOxPYIGNb/HN0QjURg==",
+      "sha512": "mAaj8PXxM7hUSIJYm9chhSe90HaIVyl8vb4JJO0M7fRaeBqSaaveHdRAmOL0LcOxp7kf9Vb8HujCe02DUqG5HQ==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.1.0",
       "files": [
@@ -8497,7 +8507,7 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.1.0": {
-      "sha512": "MnDAlaeJZy9pdB5ZdOlwdxfpI+LJQ6e0hmH7d2+y2LkiD8DRJynyDYl4Xxf3fWFm7SbEwBZh4elcfzONQLOoQw==",
+      "sha512": "jcj79VC96yxc/rgLB59+g4675iVts1XrfC97dniMEvmJhRl8cG7qRO3EsJQwNw8cFL6RenFxn/CGfUhgj32SdQ==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.1.0",
       "files": [
@@ -8787,7 +8797,7 @@
       ]
     },
     "System.Diagnostics.DiagnosticSource/4.5.0": {
-      "sha512": "eIHRELiYDQvsMToML81QFkXEEYXUSUT2F28t1SGrevWqP+epFdw80SyAXIKTXOHrIEXReFOEnEr7XlGiC2GgOg==",
+      "sha512": "zgwboUmA+bhTe+Sk+cLaqqHHDvdM2v0Ra//St8pIzx8+RJeV/1F1SNGkLCf+mo+eZv++HJ/RG6HWKNgirJN2NA==",
       "type": "package",
       "path": "system.diagnostics.diagnosticsource/4.5.0",
       "files": [
@@ -8853,7 +8863,7 @@
       ]
     },
     "System.Diagnostics.Process/4.1.0": {
-      "sha512": "mpVZ5bnlSs3tTeJ6jYyDJEIa6tavhAd88lxq1zbYhkkCu0Pno2+gHXcvZcoygq2d8JxW3gojXqNJMTAshduqZA==",
+      "sha512": "4dlFhzwmI3hl32P+8c9hnytYtV7Xldhsokm5i7Fvv5PmTS68TQCfsuJrREIyF9N1B8zlsSomp7AVrXLe45kKFQ==",
       "type": "package",
       "path": "system.diagnostics.process/4.1.0",
       "files": [
@@ -8949,7 +8959,7 @@
       ]
     },
     "System.Diagnostics.TextWriterTraceListener/4.0.0": {
-      "sha512": "w36Dr8yKy8xP150qPANe7Td+/zOI3G62ImRcHDIEW+oUXUuTKZHd4DHmqRx5+x8RXd85v3tXd1uhNTfsr+yxjA==",
+      "sha512": "oRsXCz76GDDMrwjMjH6keR9erFIofhGaIMc2d4NykI4rdBEuUP5ZswYA30LGPdyCK7DV4bMBEJL3nJFyAJoS/g==",
       "type": "package",
       "path": "system.diagnostics.textwritertracelistener/4.0.0",
       "files": [
@@ -9044,7 +9054,7 @@
       ]
     },
     "System.Diagnostics.TraceSource/4.0.0": {
-      "sha512": "6WVCczFZKXwpWpzd/iJkYnsmWTSFFiU24Xx/YdHXBcu+nFI/ehTgeqdJQFbtRPzbrO3KtRNjvkhtj4t5/WwWsA==",
+      "sha512": "bGUeY5wiCHYSWbYZS3QjbaQ1hNoJ1RQBQMB3E0Cgh6AH//4rXfXIOHKIW46HDOsTEDoNfvFNDXphL5W5B/XMwQ==",
       "type": "package",
       "path": "system.diagnostics.tracesource/4.0.0",
       "files": [
@@ -11182,7 +11192,7 @@
       ]
     },
     "System.Runtime.InteropServices.RuntimeInformation/4.3.0": {
-      "sha512": "cbz4YJMqRDR7oLeMRbdYv7mYzc++17lNhScCX0goO2XpGWdvAt60CGN+FHdePUEHCe/Jy9jUlvNAiNdM+7jsOw==",
+      "sha512": "b0kFMpo8yeYtJ0yIXyde4xxa9Xpsn9GlCA0DnLdI4Cd77z3IzkKGPKx4NlCE4AoDInm/PStyVKSfP7FWaimtGw==",
       "type": "package",
       "path": "system.runtime.interopservices.runtimeinformation/4.3.0",
       "files": [
@@ -12992,6 +13002,11 @@
         "windowsazure.storage.9.3.3.nupkg.sha512",
         "windowsazure.storage.nuspec"
       ]
+    },
+    "TextToSpeech/1.0.0": {
+      "type": "project",
+      "path": "../TextToSpeech/TextToSpeech.csproj",
+      "msbuildProject": "../TextToSpeech/TextToSpeech.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -13002,6 +13017,7 @@
       "MongoDB.Bson >= 2.7.2",
       "MongoDB.Driver >= 2.7.2",
       "MongoDB.Driver.Core >= 2.7.2",
+      "TextToSpeech >= 1.0.0",
       "WindowsAzure.Storage >= 9.3.3"
     ]
   },
@@ -13016,7 +13032,7 @@
       "projectName": "Api",
       "projectPath": "/Users/sean.spires/Desktop/Projects/Api/Api/Api.csproj",
       "packagesPath": "/Users/sean.spires/.nuget/packages/",
-      "outputPath": "/Users/sean.spires/Desktop/Projects/Api/Api/obj/",
+      "outputPath": "/Users/sean.spires/Desktop/Projects/Api/Api/obj",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -13032,7 +13048,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/sean.spires/Desktop/Projects/Api/TextToSpeech/TextToSpeech.csproj": {
+              "projectPath": "/Users/sean.spires/Desktop/Projects/Api/TextToSpeech/TextToSpeech.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -13047,8 +13067,7 @@
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.1.1, )",
-            "autoReferenced": true
+            "version": "[2.1.1, )"
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",

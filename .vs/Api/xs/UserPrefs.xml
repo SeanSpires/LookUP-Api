@@ -1,5 +1,12 @@
 ﻿<Properties StartupConfiguration="{CF73E31E-530D-4AE8-83D7-2A8C106518F1}|Default">
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Api/Controllers/TextToSpeechController.cs">
+    <Files>
+      <File FileName="Api/Controllers/PostController.cs" Line="1" Column="1" />
+      <File FileName="Api/Controllers/GroupController.cs" Line="1" Column="1" />
+      <File FileName="Api/Controllers/UserController.cs" Line="1" Column="1" />
+      <File FileName="Api/Controllers/TextToSpeechController.cs" Line="4" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

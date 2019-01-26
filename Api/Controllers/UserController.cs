@@ -22,14 +22,14 @@ namespace LookUpApi.Controllers
         }
         
         [HttpGet("{userId}")]
-        public Task<User> GetGroup(ObjectId userId)
+        public async Task<User> GetGroup(ObjectId userId)
         {
             var user = _userService.Get(userId);
-            return user;
+            return await user;
         }
 
         [HttpPost("create")]
-        public ActionResult<User> CreateUser(User user)
+        public async Task<CreatedAtActionResult> CreateUser(User user)
         {
             _userService.Create(user);
             return CreatedAtAction("CreateUser", user);

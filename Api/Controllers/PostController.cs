@@ -21,25 +21,25 @@ namespace LookUpApi.Controllers
         }
 
         [HttpGet("{postId}")]
-        public Task<Post> getPost(ObjectId postId)
-        {
+        public async Task<Post> getPost(ObjectId postId)
+        { 
             var post = _postService.Get(postId);
-            return post;
+            return await post;
         }
         
         [HttpPost("mediaUpload")]
-        public string UploadMediaFiles()
+        public async Task<string> UploadMediaFiles()
         {
             var files = Request.Form.Files;
             var fileName = files.First().FileName;
-            var stream = files.First().OpenReadStream();
-            var formFileUri =  _blobManager.UploadFileAsBlob(stream, fileName);
+            var stream =  files.First().OpenReadStream();
+            var formFileUri = await _blobManager.UploadFileAsBlob(stream, fileName);
 
             return formFileUri;
         }
         
         [HttpPost("create")]
-        public ActionResult<Post> CreatePost(Post post)
+        public async Task<CreatedAtActionResult> CreatePost(Post post)
         {
             _postService.Create(post);
             return CreatedAtAction("CreatePost", post);

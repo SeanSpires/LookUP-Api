@@ -1,6 +1,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 using LookUpApi.Services;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Group = LookUpApi.Models.Group;
 
@@ -21,27 +22,28 @@ namespace LookUpApi.Controllers
         }
 
         [HttpGet("{groupName}")]
-        public Task<Group> GetGroup(string groupName)
+        public async Task<Group> GetGroup(string groupName)
         {
             var group = _groupService.Get(groupName);
-            return  group;
+            return  await group;
         }
           
         [HttpPost("mediaUpload")]
-        public string UploadMediaFiles()
+        public async Task<string> UploadMediaFiles([FromBody]IFormFile file)
         {
-            var files = Request.Form.Files;
-            var fileName = files.First().FileName;
-            var stream = files.First().OpenReadStream();
-            var formFileUri =  _blobManager.UploadFileAsBlob(stream, fileName);
+          //  var files = Request.Form.Files;
+         
+            var fileName = file.FileName;
+            var stream = file.OpenReadStream();
+            var formFileUri =  await _blobManager.UploadFileAsBlob(stream, fileName);
 
             return formFileUri;
         }
 
         [HttpPost("create")]
-        public ActionResult<Group> CreateGroup(Group group)
+        public async Task<CreatedAtActionResult> CreateGroup(Group group)
         {
-            _groupService.Create(group);
+            await _groupService.Create(group);
             return CreatedAtAction("CreateGroup", group);
         }
     }

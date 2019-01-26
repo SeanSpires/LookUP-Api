@@ -10,7 +10,7 @@
       "NETCOREAPP",
       "NETCOREAPP2_1"
     ],
-    "languageVersion": "",
+    "languageVersion": "7.1",
     "platform": "",
     "allowUnsafe": false,
     "warningsAsErrors": false,
@@ -29,6 +29,7 @@
           "MongoDB.Bson": "2.7.2",
           "MongoDB.Driver": "2.7.2",
           "MongoDB.Driver.Core": "2.7.2",
+          "TextToSpeech": "1.0.0",
           "WindowsAzure.Storage": "9.3.3"
         },
         "runtime": {
@@ -598,6 +599,14 @@
         },
         "compile": {
           "lib/netstandard1.3/Microsoft.WindowsAzure.Storage.dll": {}
+        }
+      },
+      "TextToSpeech/1.0.0": {
+        "runtime": {
+          "TextToSpeech.dll": {}
+        },
+        "compile": {
+          "TextToSpeech.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3741,6 +3750,11 @@
       "sha512": "sha512-nBRir2+4rZgm5xWwAe6DMGepLprFmVsAby6gV06Y1pkWkMoZxMAO6x3Bid2SH0SBpSSE43nHwx8Y0G4FDN6XJg==",
       "path": "windowsazure.storage/9.3.3",
       "hashPath": "windowsazure.storage.9.3.3.nupkg.sha512"
+    },
+    "TextToSpeech/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",

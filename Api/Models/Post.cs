@@ -25,6 +25,8 @@ namespace LookUpApi.Models
         
         [BsonElement("comments")] public Comment[] Comments { get; set; }
         
+        [BsonElement("selectedTags")] public string[] Tags { get; set; }
+        
         [BsonElement("favourites")] public int Favourites { get; set; }
         
     }
