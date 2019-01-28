@@ -8,7 +8,7 @@ namespace LookUpApi.Models
     {
         public ObjectId Id { get; set; }
         
-        [BsonElement("avatar")] public Uri Avatar { get; set; }
+        [BsonElement("avatar")] public string AvatarUri { get; set; }
         
         [BsonElement("username")] public string Username { get; set; }
         

@@ -32,7 +32,7 @@ namespace TextToSpeech
             }
 
             var body = @"<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-US'>
-              <voice name='Microsoft Server Speech Text to Speech Voice (en-US, ZiraRUS)'>" +
+              <voice name='Microsoft Server Speech Text to Speech Voice (en-US, JessaNeural)'>" +
                           text + "</voice></speak>";
             
          
@@ -58,25 +58,9 @@ namespace TextToSpeech
                     
                     response.EnsureSuccessStatusCode();
                     return response;
-                    // Asynchronously read the response
-//                        using (var dataStream = await response.Content.ReadAsStreamAsync().ConfigureAwait(false))
-//                        {
-//                            Console.WriteLine("Your speech file is being written to file...");
-//                            return dataStream;
-//                            using (var fileStream = new FileStream(@"Speech.wav", FileMode.Create, FileAccess.Write, FileShare.Write))
-//                            {
-//                                await dataStream.CopyToAsync(fileStream).ConfigureAwait(false);
-//                                fileStream.Close();
-//                            }
-//                            Console.WriteLine("\nYour file is ready. Press any key to exit.");
-//                            Console.ReadLine();
                     }    
-                    
-                    
                 }
             }
-
-        //    return "Speech.wav";
         }
     
 }

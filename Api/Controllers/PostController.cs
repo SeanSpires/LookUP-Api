@@ -20,6 +20,12 @@ namespace LookUpApi.Controllers
             _postService = postService;
         }
 
+        [HttpGet]
+        public async Task<Post[]> getAllPosts()
+        {
+            return await _postService.GetAllPosts();
+        }
+
         [HttpGet("{postId}")]
         public async Task<Post> getPost(ObjectId postId)
         { 

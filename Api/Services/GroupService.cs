@@ -22,6 +22,12 @@ namespace LookUpApi.Services
             _groups = _database.GetCollection<Group>("Group");
         }
 
+
+        public async Task<Group[]> GetAllGroups()
+        {
+             return  _groups.AsQueryable().ToArray();
+        }
+        
         public async Task<Group> Get(string groupName)
         {
             var groupsAsQueryable = _groups.AsQueryable();

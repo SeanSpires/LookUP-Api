@@ -9,25 +9,27 @@ namespace LookUpApi.Models
     {
         public ObjectId Id { get; set; }
         
-        [BsonElement("description")] public string Description { get; set; }
+        [BsonElement("desc")] public string Desc { get; set; }
         
         [BsonElement("date")] public DateTime Date { get; set; }
         
-        [BsonElement("user")] public User User{ get; set; }
+        [BsonElement("avatar")] public string Avatar { get; set; }
         
-        [BsonElement("group")] public Group Group { get; set; }
+        [BsonElement("user")] public string User { get; set; }
         
-        [BsonElement("videoThumbnail")] public Uri VideoThumbnail { get; set; }
+      //  [BsonElement("group")] public Group Group { get; set; }
         
-        [BsonElement("videoUri")] public Uri VideoUri { get; set; }
+        [BsonElement("videoThumbnail")] public string VideoThumbnail { get; set; }
+
+        [BsonElement("videoURL")] public string VideoURL { get; set; }
         
-        [BsonElement("images")] public Uri[] Images { get; set; }
+        [BsonElement("mediaFiles")] public string[] MediaFiles { get; set; }
         
         [BsonElement("comments")] public Comment[] Comments { get; set; }
-        
-        [BsonElement("selectedTags")] public string[] Tags { get; set; }
-        
+                
         [BsonElement("favourites")] public int Favourites { get; set; }
+        
+        [BsonElement("postOrigin")] public string PostOrigin { get; set; }
         
     }
 }

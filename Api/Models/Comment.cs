@@ -10,16 +10,20 @@ namespace LookUpApi.Models
         
         [BsonElement("description")] public string Description { get; set; }
         
-        [BsonElement("date")] public DateTime DateTime { get; set; }
+      //  [BsonElement("date")] public DateTime DateTime { get; set; }     
         
-        [BsonElement("user")] public User User { get; set; }
+        //[BsonElement("user")] public User User { get; set; }
         
-        [BsonElement("videoThumbnail")] public Uri VideoThumbnail { get; set; }
+        [BsonElement("avatar")] public string Avatar { get; set; }
         
-        [BsonElement("videoUri")] public Uri VideoUri { get; set; }
+        [BsonElement("user")] public string User { get; set; }
+        
+        [BsonElement("videoThumbnail")] public string VideoThumbnail { get; set; }
+        
+        [BsonElement("videoURL")] public string VideoUrl { get; set; }
            
-        [BsonElement("images")] public Uri[] Images { get; set; }
+        [BsonElement("mediaFiles")] public string[] MediaFiles { get; set; }
         
-        [BsonElement("favourites")] public int Favourites { get; set; }
+       // [BsonElement("favourites")] public int Favourites { get; set; }
     }
 }

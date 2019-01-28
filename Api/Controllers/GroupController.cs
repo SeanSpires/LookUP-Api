@@ -20,6 +20,8 @@ namespace LookUpApi.Controllers
             _blobManager = blobManager;
             _groupService = groupService;
         }
+        
+        
 
         [HttpGet("{groupName}")]
         public async Task<Group> GetGroup(string groupName)
@@ -27,7 +29,16 @@ namespace LookUpApi.Controllers
             var group = _groupService.Get(groupName);
             return  await group;
         }
-          
+
+
+        [HttpGet]
+        public async Task<Group[]> GetGroups()
+        {
+            var groups = await _groupService.GetAllGroups();
+            return  groups;
+        }
+        
+
         [HttpPost("mediaUpload")]
         public async Task<string> UploadMediaFiles([FromBody]IFormFile file)
         {

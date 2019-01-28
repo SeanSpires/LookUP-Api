@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Threading.Tasks;
 using LookUpApi.Models;
 using Microsoft.Extensions.Configuration;
@@ -13,12 +14,17 @@ namespace LookUpApi.Services
         private readonly IMongoDatabase _database;
 
         public PostService(IConfiguration configuration)
-        {    
+        {
             var client = new MongoClient(configuration.GetConnectionString("LookUpDb"));
             _database = client.GetDatabase("LookUP");
-            _posts = _database.GetCollection<Post>("Post");        
+            _posts = _database.GetCollection<Post>("Post");
         }
-        
+
+        public async Task<Post[]> GetAllPosts()
+        {
+            return _posts.AsQueryable().ToArray();
+        }
+
         public async Task<Post> Get(ObjectId postId)
         {
             var postsAsQueryable = _posts.AsQueryable();
