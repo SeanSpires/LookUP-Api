@@ -22,10 +22,9 @@ namespace LookUpApi.Controllers
         {    
             var text = input.Text;
             var textToSpeechService = new TextToSpeechService();
-            var uri = textToSpeechService.GenerateAudioSpeech(text);
-            return uri.ToString();
+            var uri = await textToSpeechService.GenerateAudioSpeech(text);
+            return uri;
         }
         
-
     }
 }

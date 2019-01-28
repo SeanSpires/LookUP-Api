@@ -38,20 +38,20 @@ namespace LookUpApi.Services
             }
         }
         public async Task<string> GetAnswer(string question)
-        {
+        {     
             var uri = _qnaServiceHostName + "/qnamaker/knowledgebases/" + _knowledgeBaseId + "/generateAnswer";
             var questionJSON = @"{'question': '" + question + "'}";
 
             var response = await Post(uri, questionJSON);
 
             var answers = JsonConvert.DeserializeObject<QnAAnswer>(response);
-            if (answers.answers.Count > 0)
+            if (answers.answers != null && answers.answers.Count > 0)
             {
                 return answers.answers[0].answer;
             }
             else
             {
-                return "No good match found.";
+                return "";
             }
         }
     }
