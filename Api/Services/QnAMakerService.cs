@@ -23,7 +23,7 @@ namespace LookUpApi.Services
 
         }
 
-        async Task<string> Post(string uri, string body)
+        private async Task<string> Post(string uri, string body)
         {
             using (var client = new HttpClient())
             using (var request = new HttpRequestMessage())
@@ -49,10 +49,8 @@ namespace LookUpApi.Services
             {
                 return answers.answers[0].answer;
             }
-            else
-            {
-                return "";
-            }
+
+            return "";
         }
     }
 }

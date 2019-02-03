@@ -11,13 +11,13 @@ namespace TextToSpeech
         public static async Task<HttpResponseMessage> GenerateSpeechStream(string text)
         {
             
-            const string host = "https://eastus.tts.speech.microsoft.com/cognitiveservices/v1";
+            const string host = "https://westus.tts.speech.microsoft.com/cognitiveservices/v1";
 
             string accessToken;
             Console.WriteLine("Attempting token exchange. Please wait...\n");
 
 
-            var auth = new Authentication("https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken", "8df795ce734c4820a326c6b11b32d259");
+            var auth = new Authentication("https://westus.api.cognitive.microsoft.com/sts/v1.0/issuetoken", "e8e7e1c6282442cda55639d2738f3d82");
             try
             {
                 accessToken = await auth.FetchTokenAsync().ConfigureAwait(false);
