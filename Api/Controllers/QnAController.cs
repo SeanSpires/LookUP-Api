@@ -9,10 +9,14 @@ using Newtonsoft.Json;
 
 namespace LookUpApi.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class QnAController : ControllerBase
     {
+        private string _qnaHostName = "https://lookupqna.azurewebsites.net";
+        private string _endPointKey = "3f35c105-e3c4-40de-b3af-68e42a29da98";
+        
         [HttpPost]
         public async Task<TextAndAudioWrapper> InputQuestionAndReturnAnswer(TextInput textInput)
         {
@@ -20,11 +24,14 @@ namespace LookUpApi.Controllers
             var wrapper = new TextAndAudioWrapper();
             var question = textInput.Text;
             
-            var qnaMaker = new QnAMakerService("https://lookupqna.azurewebsites.net", 
-                "d282ad63-9701-4548-afac-a421f0ec43ed", "3f35c105-e3c4-40de-b3af-68e42a29da98");
+            var generalKB = new QnAMakerService(_qnaHostName, 
+                "d282ad63-9701-4548-afac-a421f0ec43ed", _endPointKey);
             
-            var groupKB = new QnAMakerService("https://lookup-groupkb.azurewebsites.net", 
-                "e2d2c2c2-c4b4-4435-b81d-039d116d1b4a", "23d18d1b-9d9a-4a62-8d80-35481c3f5ff7");
+            var groupKB = new QnAMakerService(_qnaHostName, 
+                "b51f7e68-706b-42e4-8b31-0dd34d392a54", _endPointKey);
+            
+            var postKB = new QnAMakerService(_qnaHostName, 
+                "92e0fe0c-8826-4e60-8c47-9a4d36cb629e", _endPointKey);
 
 
             var intent = await luisService.GetIntent(question);
@@ -35,16 +42,16 @@ namespace LookUpApi.Controllers
                 case "Group":
                     answer = await groupKB.GetAnswer(question);
                     break;
+                case "Post":
+                    answer = await postKB.GetAnswer(question);
+                    break;
                 case "None":
-                    answer = "Sorry, I don't know that.";
+                    answer = await generalKB.GetAnswer(question);
                     break;
                 default:
                     answer = "Sorry, I don't know that.";
                     break;
             }
-
-//            Console.WriteLine("The intent is " + intent);
-//            Console.WriteLine("The answer is");
             
             if (answer == "")
             {

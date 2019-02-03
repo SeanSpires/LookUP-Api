@@ -9,7 +9,7 @@ namespace LookUpApi.Services
     {
         public async Task<string> GetIntent(string question)
         {
-            const string luisEndPoint = "https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/334ec72e-6a16-42e8-b2a3-bc0f2a4ce359?verbose=true&timezoneOffset=-360&subscription-key=bbab6d2fbfcd4aa9bcd57e4918c86d65&q=";
+            const string luisEndPoint = "https://australiaeast.api.cognitive.microsoft.com/luis/v2.0/apps/13e77df7-a129-4d7f-bbc9-fa9e36c6389e?verbose=true&timezoneOffset=600&subscription-key=599d4e5c2d4747378f3924452d3f2987&q=";
             
             var webClient = new WebClient();
 

@@ -19,8 +19,9 @@ namespace TextToSpeech
             {
                 throw new ArgumentNullException(nameof(subscriptionKey));
             }
-            this._tokenFetchUri = tokenFetchUri;
-            this._subscriptionKey = subscriptionKey;
+            
+            _tokenFetchUri = tokenFetchUri;
+            _subscriptionKey = subscriptionKey;
         }
 
         public async Task<string> FetchTokenAsync()
