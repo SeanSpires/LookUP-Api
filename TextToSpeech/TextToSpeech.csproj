@@ -6,4 +6,10 @@
 	<RootNamespace>CognitiveService</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Remove="appsettings.json" />
+    </ItemGroup>
+    <ItemGroup>
+      <Compile Remove="EmptyClass.cs" />
+    </ItemGroup>
 </Project>

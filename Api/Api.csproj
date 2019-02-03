@@ -22,4 +22,7 @@
       <ProjectReference Include="..\TextToSpeech\TextToSpeech.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="ValuesController.cs" />
+    </ItemGroup>
 </Project>

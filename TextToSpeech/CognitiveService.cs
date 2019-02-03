@@ -11,13 +11,13 @@ namespace TextToSpeech
         public static async Task<HttpResponseMessage> GenerateSpeechStream(string text)
         {
             
-            const string host = "https://westus.tts.speech.microsoft.com/cognitiveservices/v1";
+            const string host = "https://eastus.tts.speech.microsoft.com/cognitiveservices/v1";
 
             string accessToken;
             Console.WriteLine("Attempting token exchange. Please wait...\n");
 
 
-            var auth = new Authentication("https://westus.api.cognitive.microsoft.com/sts/v1.0/issuetoken", "e8e7e1c6282442cda55639d2738f3d82");
+            var auth = new Authentication("https://eastus.api.cognitive.microsoft.com/sts/v1.0/issuetoken", "8df795ce734c4820a326c6b11b32d259");
             try
             {
                 accessToken = await auth.FetchTokenAsync().ConfigureAwait(false);
@@ -31,15 +31,11 @@ namespace TextToSpeech
                 return null;
             }
 
-//            var body = @"<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-US'>
-//              <voice name='Microsoft Server Speech Text to Speech Voice (en-US, JessaNeural)'>" +
-//                          text + "</voice></speak>";
-            
             var body = @"<speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-US'>
-              <voice name='Microsoft Server Speech Text to Speech Voice (en-US, ZiraRUS)'>" +
-                       text + "</voice></speak>";
-            
-         
+              <voice name='Microsoft Server Speech Text to Speech Voice (en-US, JessaNeural)'>" +
+                          text + "</voice></speak>";
+
+
             using (var client = new HttpClient())
             {
                 using (var request = new HttpRequestMessage())
