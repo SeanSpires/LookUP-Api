@@ -16,7 +16,17 @@
       <change afterPath="$PROJECT_DIR$/../LookUpApi/LookUpApi/Models/Group.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LookUpApi/LookUpApi/Services/GroupService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/Services/QnAMakerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Api/Services/QnAMakerService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/TextToSpeech.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/TextToSpeech.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/TextToSpeech.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/TextToSpeech.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextToSpeech/bin/Debug/netcoreapp2.1/TextToSpeech.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TextToSpeech/bin/Debug/netcoreapp2.1/TextToSpeech.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextToSpeech/bin/Debug/netcoreapp2.1/TextToSpeech.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TextToSpeech/bin/Debug/netcoreapp2.1/TextToSpeech.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +75,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TextToSpeech/CognitiveService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="19" column="141" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
+              <folding>
+                <marker date="1549170243951" expanded="false" signature="6:102" ph="..." />
+                <marker date="1549170243951" expanded="true" signature="126:2732" ph="{...}" />
+                <marker date="1549170243951" expanded="true" signature="162:2725" ph="{...}" />
+                <marker date="1549170243951" expanded="true" signature="256:2715" ph="{...}" />
+                <marker date="1549170243951" expanded="true" signature="649:839" ph="{...}" />
+                <marker date="1549170243951" expanded="true" signature="872:1098" ph="{...}" />
+                <marker date="1549170243951" expanded="true" signature="1431:2701" ph="{...}" />
+                <marker date="1549170243951" expanded="true" signature="1508:2679" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Api/Services/LuisService.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -74,6 +103,25 @@
                 <marker date="1549169275395" expanded="true" signature="124:763" ph="{...}" />
                 <marker date="1549169275395" expanded="true" signature="155:761" ph="{...}" />
                 <marker date="1549169275395" expanded="true" signature="222:755" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TextToSpeech/Authentication.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+              <folding>
+                <marker date="1549168353312" expanded="false" signature="6:66" ph="..." />
+                <marker date="1549168353312" expanded="true" signature="90:1268" ph="{...}" />
+                <marker date="1549168353312" expanded="true" signature="124:1266" ph="{...}" />
+                <marker date="1549168353312" expanded="true" signature="305:750" ph="{...}" />
+                <marker date="1549168353312" expanded="true" signature="373:473" ph="{...}" />
+                <marker date="1549168353312" expanded="true" signature="533:635" ph="{...}" />
+                <marker date="1549168353312" expanded="true" signature="803:1260" ph="{...}" />
+                <marker date="1549168353312" expanded="true" signature="863:1250" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -112,40 +160,6 @@
                 <marker date="1548556540875" expanded="true" signature="902:1011" ph="{...}" />
                 <marker date="1548556540875" expanded="true" signature="1132:1417" ph="{...}" />
                 <marker date="1548556540875" expanded="true" signature="1521:1646" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Api/Services/QnAMakerService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
-              <folding>
-                <marker date="1549169631097" expanded="false" signature="6:132" ph="..." />
-                <marker date="1549169631097" expanded="true" signature="162:1819" ph="{...}" />
-                <marker date="1549169631097" expanded="true" signature="221:1817" ph="{...}" />
-                <marker date="1549169631097" expanded="true" signature="458:600" ph="{...}" />
-                <marker date="1549169631097" expanded="true" signature="666:1235" ph="{...}" />
-                <marker date="1549169631097" expanded="true" signature="785:1225" ph="{...}" />
-                <marker date="1549169631097" expanded="true" signature="1296:1811" ph="{...}" />
-                <marker date="1549169631097" expanded="true" signature="1699:1777" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Api/Services/TextToSpeechService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-              <folding>
-                <marker date="1548636929768" expanded="false" signature="6:43" ph="..." />
-                <marker date="1548636929768" expanded="true" signature="73:832" ph="{...}" />
-                <marker date="1548636929768" expanded="true" signature="112:830" ph="{...}" />
-                <marker date="1548636929768" expanded="true" signature="185:824" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -264,7 +278,6 @@
         <option value="$PROJECT_DIR$/Api/Models/TextInput.cs" />
         <option value="$PROJECT_DIR$/Api/Models/QnAResponse.cs" />
         <option value="$PROJECT_DIR$/Api/Models/QnAAnswer.cs" />
-        <option value="$PROJECT_DIR$/TextToSpeech/CognitiveService.cs" />
         <option value="$PROJECT_DIR$/Api/Services/TextToSpeechService.cs" />
         <option value="$PROJECT_DIR$/Api/Controllers/TextToSpeechController.cs" />
         <option value="$PROJECT_DIR$/Api/Models/Answer.cs" />
@@ -276,6 +289,7 @@
         <option value="$PROJECT_DIR$/Api/Controllers/QnAController.cs" />
         <option value="$PROJECT_DIR$/Api/Services/LuisService.cs" />
         <option value="$PROJECT_DIR$/Api/Services/QnAMakerService.cs" />
+        <option value="$PROJECT_DIR$/TextToSpeech/CognitiveService.cs" />
       </list>
     </option>
   </component>
@@ -392,7 +406,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46840000" />
+    <option name="totallyTimeSpent" value="47199000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,7 +428,7 @@
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.4985694" weight="0.4506024" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.4985694" visible="true" weight="0.3987952" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -425,7 +439,7 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="REST Client" order="13" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50143063" side_tool="true" weight="0.45089903" />
       <window_info anchor="bottom" id="Build" order="16" sideWeight="0.49928468" weight="0.3305671" />
       <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32918397" />
@@ -514,23 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TextToSpeech/CognitiveService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
-          <folding>
-            <marker date="1548636773653" expanded="false" signature="6:102" ph="..." />
-            <marker date="1548636773653" expanded="true" signature="126:2732" ph="{...}" />
-            <marker date="1548636773653" expanded="true" signature="162:2725" ph="{...}" />
-            <marker date="1548636773653" expanded="true" signature="256:2715" ph="{...}" />
-            <marker date="1548636773653" expanded="true" signature="649:839" ph="{...}" />
-            <marker date="1548636773653" expanded="true" signature="872:1098" ph="{...}" />
-            <marker date="1548636773653" expanded="true" signature="1431:2701" ph="{...}" />
-            <marker date="1548636773653" expanded="true" signature="1508:2679" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Api/Models/Answer.cs" />
     <entry file="file://$PROJECT_DIR$/Api/Managers/BlobManager.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -609,23 +606,6 @@
           <folding>
             <marker date="1548637851756" expanded="true" signature="26:163" ph="{...}" />
             <marker date="1548637851756" expanded="true" signature="65:161" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TextToSpeech/Authentication.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <marker date="1549168353312" expanded="false" signature="6:66" ph="..." />
-            <marker date="1549168353312" expanded="true" signature="90:1268" ph="{...}" />
-            <marker date="1549168353312" expanded="true" signature="124:1266" ph="{...}" />
-            <marker date="1549168353312" expanded="true" signature="305:750" ph="{...}" />
-            <marker date="1549168353312" expanded="true" signature="373:473" ph="{...}" />
-            <marker date="1549168353312" expanded="true" signature="533:635" ph="{...}" />
-            <marker date="1549168353312" expanded="true" signature="803:1260" ph="{...}" />
-            <marker date="1549168353312" expanded="true" signature="863:1250" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -844,6 +824,40 @@
             <marker date="1549169275395" expanded="true" signature="124:763" ph="{...}" />
             <marker date="1549169275395" expanded="true" signature="155:761" ph="{...}" />
             <marker date="1549169275395" expanded="true" signature="222:755" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TextToSpeech/Authentication.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <marker date="1549168353312" expanded="false" signature="6:66" ph="..." />
+            <marker date="1549168353312" expanded="true" signature="90:1268" ph="{...}" />
+            <marker date="1549168353312" expanded="true" signature="124:1266" ph="{...}" />
+            <marker date="1549168353312" expanded="true" signature="305:750" ph="{...}" />
+            <marker date="1549168353312" expanded="true" signature="373:473" ph="{...}" />
+            <marker date="1549168353312" expanded="true" signature="533:635" ph="{...}" />
+            <marker date="1549168353312" expanded="true" signature="803:1260" ph="{...}" />
+            <marker date="1549168353312" expanded="true" signature="863:1250" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TextToSpeech/CognitiveService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="19" column="141" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
+          <folding>
+            <marker date="1549170243951" expanded="false" signature="6:102" ph="..." />
+            <marker date="1549170243951" expanded="true" signature="126:2732" ph="{...}" />
+            <marker date="1549170243951" expanded="true" signature="162:2725" ph="{...}" />
+            <marker date="1549170243951" expanded="true" signature="256:2715" ph="{...}" />
+            <marker date="1549170243951" expanded="true" signature="649:839" ph="{...}" />
+            <marker date="1549170243951" expanded="true" signature="872:1098" ph="{...}" />
+            <marker date="1549170243951" expanded="true" signature="1431:2701" ph="{...}" />
+            <marker date="1549170243951" expanded="true" signature="1508:2679" ph="{...}" />
           </folding>
         </state>
       </provider>
