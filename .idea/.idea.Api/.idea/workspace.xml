@@ -15,18 +15,11 @@
       <change afterPath="$PROJECT_DIR$/../LookUpApi/LookUpApi/Managers/BlobManager.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LookUpApi/LookUpApi/Models/Group.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../LookUpApi/LookUpApi/Services/GroupService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Api/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/TextToSpeech.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/TextToSpeech.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/TextToSpeech.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/bin/Debug/netcoreapp2.1/TextToSpeech.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Api/xs/UserPrefs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Api/xs/UserPrefs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Api/xs/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Api/xs/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Api/xs/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Api/xs/sqlite3/storage.ide-wal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Api/obj/Debug/netcoreapp2.1/Api.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextToSpeech/bin/Debug/netcoreapp2.1/TextToSpeech.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TextToSpeech/bin/Debug/netcoreapp2.1/TextToSpeech.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextToSpeech/bin/Debug/netcoreapp2.1/TextToSpeech.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TextToSpeech/bin/Debug/netcoreapp2.1/TextToSpeech.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.dll" beforeDir="false" afterPath="$PROJECT_DIR$/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/TextToSpeech/obj/Debug/netcoreapp2.1/TextToSpeech.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,17 +70,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TextToSpeech/CognitiveService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="19" column="141" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
+            <state relative-caret-position="175">
+              <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
               <folding>
-                <marker date="1549170243951" expanded="false" signature="6:102" ph="..." />
-                <marker date="1549170243951" expanded="true" signature="126:2732" ph="{...}" />
-                <marker date="1549170243951" expanded="true" signature="162:2725" ph="{...}" />
-                <marker date="1549170243951" expanded="true" signature="256:2715" ph="{...}" />
-                <marker date="1549170243951" expanded="true" signature="649:839" ph="{...}" />
-                <marker date="1549170243951" expanded="true" signature="872:1098" ph="{...}" />
-                <marker date="1549170243951" expanded="true" signature="1431:2701" ph="{...}" />
-                <marker date="1549170243951" expanded="true" signature="1508:2679" ph="{...}" />
+                <marker date="1549170774051" expanded="false" signature="6:102" ph="..." />
+                <marker date="1549170774051" expanded="true" signature="126:3003" ph="{...}" />
+                <marker date="1549170774051" expanded="true" signature="162:2996" ph="{...}" />
+                <marker date="1549170774051" expanded="true" signature="256:2986" ph="{...}" />
+                <marker date="1549170774051" expanded="true" signature="649:839" ph="{...}" />
+                <marker date="1549170774051" expanded="true" signature="872:1098" ph="{...}" />
+                <marker date="1549170774051" expanded="true" signature="1100:1364" ph="/* var body = @&quot;&lt;speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-US'&gt; ... */" />
+                <marker date="1549170774051" expanded="true" signature="1702:2972" ph="{...}" />
+                <marker date="1549170774051" expanded="true" signature="1779:2950" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -406,7 +400,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47199000" />
+    <option name="totallyTimeSpent" value="47671000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -419,6 +413,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2811159" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -847,17 +842,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TextToSpeech/CognitiveService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="19" column="141" selection-start-line="19" selection-start-column="141" selection-end-line="19" selection-end-column="141" />
+        <state relative-caret-position="175">
+          <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
           <folding>
-            <marker date="1549170243951" expanded="false" signature="6:102" ph="..." />
-            <marker date="1549170243951" expanded="true" signature="126:2732" ph="{...}" />
-            <marker date="1549170243951" expanded="true" signature="162:2725" ph="{...}" />
-            <marker date="1549170243951" expanded="true" signature="256:2715" ph="{...}" />
-            <marker date="1549170243951" expanded="true" signature="649:839" ph="{...}" />
-            <marker date="1549170243951" expanded="true" signature="872:1098" ph="{...}" />
-            <marker date="1549170243951" expanded="true" signature="1431:2701" ph="{...}" />
-            <marker date="1549170243951" expanded="true" signature="1508:2679" ph="{...}" />
+            <marker date="1549170774051" expanded="false" signature="6:102" ph="..." />
+            <marker date="1549170774051" expanded="true" signature="126:3003" ph="{...}" />
+            <marker date="1549170774051" expanded="true" signature="162:2996" ph="{...}" />
+            <marker date="1549170774051" expanded="true" signature="256:2986" ph="{...}" />
+            <marker date="1549170774051" expanded="true" signature="649:839" ph="{...}" />
+            <marker date="1549170774051" expanded="true" signature="872:1098" ph="{...}" />
+            <marker date="1549170774051" expanded="true" signature="1100:1364" ph="/* var body = @&quot;&lt;speak version='1.0' xmlns='http://www.w3.org/2001/10/synthesis' xml:lang='en-US'&gt; ... */" />
+            <marker date="1549170774051" expanded="true" signature="1702:2972" ph="{...}" />
+            <marker date="1549170774051" expanded="true" signature="1779:2950" ph="{...}" />
           </folding>
         </state>
       </provider>

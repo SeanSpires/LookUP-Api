@@ -1,16 +1,16 @@
 ﻿<Properties StartupConfiguration="{CF73E31E-530D-4AE8-83D7-2A8C106518F1}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Api/Services/GroupService.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TextToSpeech/CognitiveService.cs">
     <Files>
       <File FileName="Api/Controllers/PostController.cs" Line="1" Column="1" />
       <File FileName="Api/Controllers/GroupController.cs" Line="1" Column="1" />
       <File FileName="Api/Controllers/UserController.cs" Line="1" Column="1" />
-      <File FileName="Api/Controllers/TextToSpeechController.cs___jb_old___" Line="1" Column="1" />
       <File FileName="Api/Services/GroupService.cs" Line="26" Column="40" />
       <File FileName="Api/Models/Group.cs" Line="16" Column="39" />
       <File FileName="Api/Models/Comment.cs" Line="24" Column="12" />
       <File FileName="Api/Models/Post.cs" Line="1" Column="1" />
       <File FileName="Api/Controllers/QnAController.cs" Line="1" Column="1" />
       <File FileName="Api/Controllers/TextToSpeechController.cs" Line="4" Column="9" />
+      <File FileName="TextToSpeech/CognitiveService.cs" Line="13" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Api PreferredExecutionTarget="MonoDevelop.Default" />
